@@ -41,6 +41,7 @@
         android:textSize="24sp"/>
 
     <Button
+        android:id="@+id/selectDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/ageTextColor"
@@ -53,10 +54,11 @@
         android:textColor="@color/lightGreyTextColor"/>
 
     <TextView
+        android:id="@+id/selectedDateTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:text=""
+        android:text="-"
         android:textSize="20sp"
         android:textStyle="bold"
         android:gravity="center"
@@ -65,7 +67,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="20dp"
         android:text="Selected Date"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -73,10 +75,11 @@
         android:textColor="@color/lightGreyTextColor"/>
 
     <TextView
+        android:id="@+id/resultant"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:text=""
+        android:layout_marginTop="40dp"
+        android:text="-"
         android:textSize="20sp"
         android:textStyle="bold"
         android:gravity="center"
@@ -85,7 +88,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="20dp"
         android:text="Age in Minutes"
         android:textSize="20sp"
         android:textStyle="bold"
